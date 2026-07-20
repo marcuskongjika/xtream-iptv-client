@@ -1,5 +1,5 @@
-appId: com.nxtup.xtream-iptv-client
-productName: Xtream IPTV Client
+appId: com.nxtup.vela
+productName: Vela
 directories:
   buildResources: build
   output: dist

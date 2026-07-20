@@ -1,8 +1,8 @@
 {
-  "name": "xtream-iptv-client",
-  "productName": "Xtream IPTV Client",
+  "name": "vela",
+  "productName": "Vela",
   "version": "0.1.0",
-  "description": "Desktop IPTV streaming client for Xtream Codes servers",
+  "description": "Vela — a desktop IPTV player for Xtream Codes servers",
   "main": "./out/main/index.js",
   "license": "MIT",
   "scripts": {

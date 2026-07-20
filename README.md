@@ -1,6 +1,8 @@
-# Xtream IPTV Client
+<img src="build/icon.png" width="96" align="right" alt="Vela logo">
 
-A desktop IPTV streaming client for **Xtream Codes** servers, built with Electron, React, and TypeScript.
+# Vela
+
+A desktop IPTV player for **Xtream Codes** servers, built with Electron, React, and TypeScript.
 
 > **Note:** This is a player only — it ships with no content. You must have your own valid credentials for an Xtream Codes server, and you are responsible for ensuring you are authorized to access any content you stream with it.
 

@@ -29,7 +29,7 @@ function createWindow(): void {
     show: false,
     autoHideMenuBar: true,
     backgroundColor: '#09090b',
-    title: 'Xtream IPTV Client',
+    title: 'Vela',
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false,
@@ -105,7 +105,7 @@ app.whenReady().then(async () => {
   // only serve streams to what looks like a regular Chrome browser.
   app.userAgentFallback = app.userAgentFallback
     .split(' ')
-    .filter((part) => !/^(xtream-iptv-client|Electron)\//i.test(part))
+    .filter((part) => !/^(vela|Electron)\//i.test(part))
     .join(' ')
 
   setupCorsBypass()

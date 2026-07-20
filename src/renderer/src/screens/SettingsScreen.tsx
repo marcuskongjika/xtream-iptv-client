@@ -115,7 +115,7 @@ export function SettingsScreen(): JSX.Element {
           </div>
         </section>
 
-        <p className="text-xs text-zinc-500">Xtream IPTV Client {version && `v${version}`}</p>
+        <p className="text-xs text-zinc-500">Vela {version && `v${version}`}</p>
       </div>
 
       {showAddForm && <ServerForm onClose={() => setShowAddForm(false)} />}
